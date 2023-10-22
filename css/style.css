@@ -1,0 +1,326 @@
+*{
+    margin: 0;
+    padding: 0;
+    border: 0;
+    outline: 0;
+    box-sizing: border-box;
+}
+header{
+    background-color: #87509c;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.container{
+    width: 1140px;
+    margin: auto;
+}
+.row{
+    width: 100%;
+    float: left;   
+}
+nav{
+    padding: 40px 0;
+}
+.logo{
+    width: 50%;
+    float: left;
+}
+.logo img{
+    cursor: pointer;
+}
+.menu{
+    width: 50%;
+    float: left;
+}
+ul{
+    text-align: end;
+    padding: 10px 0;
+}
+ul li{
+    list-style: none;
+    display: inline-block;
+}
+ul li a{
+    text-decoration: none;
+    font-size: 15px;
+    padding: 8px 15px;
+    border-radius: 5px;
+    color: white;
+    margin: 0 10px;
+}
+ul li a:hover{
+    color: white;
+    border: 1px solid #643a79;
+    border-radius: 5px;
+    background-color: #643a79;
+}
+.header-content{
+    padding: 70px;
+    text-align: center;
+}
+.header-content h1{
+    color: white;
+    padding: 0 50px;
+    font-size: 40px;
+}
+.header-content button{
+    padding: 10px 30px;
+    margin: 50px 0;
+    font-size: 20px;
+    color: white;
+    border-radius: 5px;
+    background-color: #eb7d4b;
+    cursor: pointer;
+    transition: .8s;
+}
+.header-content button:hover{
+    color: #eb7d4b;
+    background-color: white;
+}
+.service{
+    background-color: #17c2a4;
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+    text-align: center;
+    padding: 75px 0px;
+}
+.service-content h1, .team-content h1, .skill-content h1, .contact-content h1, .client-content h1, .portfolio-content h1{
+    font-size: 30px;
+    letter-spacing: 3px;
+    align-items: center;
+    font-weight: 400;
+    padding: 20px 0 0;
+}
+.service-content p, .team-content p, .skill-content p, .client-content p, .portfolio-content p{
+    padding: 0 280px;
+    line-height: 24px;
+    font-weight: 300;
+}
+.service-icon{
+    padding: 75px 0;
+}
+.service-icon img{
+    width: 100px;
+    height: 120px;
+}
+.box{
+    width: 25%;
+    float: left;
+}
+.box h2{
+    padding-top: 30px;
+    font-size: 20px;
+    align-items: center;
+}
+.box p{
+    padding: 0 40px;
+    padding-top: 25px;
+    line-height: 24px;
+}
+.team{
+    background-color: #e7f1f8;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #3c4761;
+    align-items: center;
+    text-align: center;
+    padding: 75px 0px;
+}
+.team h4{
+    font-size: 13px;
+    padding-top: 5px;
+    color: #30bae7;
+}
+.team img{
+    width: 115px;
+    height: 120px;
+    border-radius: 150px;
+}
+.team i{
+    font-size: 20px;
+    margin-top: 20px;
+    border: 1px solid #bdd1df;
+    border-radius: 30px;
+    background-color: #bdd1df;
+    color: white;
+    transition: 0.5s;
+    padding: 2px;
+}
+.team i:hover{
+    background-color: #30bae7;
+}
+.skill{
+    background-color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    color: rgb(17, 17, 17);
+    text-align: center;
+    padding: 75px 0px;
+}
+.skill img{
+    width: 115px;
+    height: 115px;
+    border-radius: 50%;
+}
+hr{
+    height:3px;
+    width: 80px;
+    margin: auto;
+    margin-top: 5px;
+    margin-bottom: 20px;
+    border-width:0;
+    color:gray;
+    background-color:gray;
+}
+.portfolio{
+    background-color: #ffdd99;
+    font-family: Arial, Helvetica, sans-serif;
+    color: rgb(17, 17, 17);
+    text-align: center;
+    padding: 75px 0px;
+}
+.portfolio-button{
+    padding: 50px 0;
+}
+.btn{
+    display: inline-block;
+    cursor: pointer;
+    padding: 10px 20px;
+    border-radius: 5px;
+    transition: 0.5s;
+    background-color: #ebc985;
+}
+.btn:hover{
+    background-color: #ffffff;
+}
+.pbox{
+    width: 50%;
+    float: left;
+}
+.pbox h2{
+    padding-top: 15px;
+    padding-bottom: 70PX;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    align-items: center;
+}
+.pbox img{
+    width: 500px;
+    height: 300px;
+}
+.bttn{
+    display: inline-block;
+    color: white;
+    cursor: pointer;
+    padding: 15px 25px;
+    border-radius: 5px;
+    transition: 0.5s;
+    background-color: #17c2a4;
+}
+.bttn:hover{
+    background-color: white;
+    color: black;
+}
+.client{
+    background-color: #d74680;
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+    text-align: center;
+    padding: 75px 0px;
+}
+.ibox{
+    width: 15%;
+    float: left;
+    align-items: top;
+}
+.cbox{
+    width: 35%;
+    float: left;
+    align-items: center;
+    text-align: left;
+}
+.ibox img{
+    width: 115px;
+    height: 120px;
+    border-radius: 150px;
+}
+.client-review{
+    padding-top: 70px;
+}
+.cbox p{
+    padding-right: 70px;
+    padding-bottom: 20px;
+}
+.cbox h4{
+    color: #ffdd99;
+    font-size: 12px;
+}
+.contact{
+    background-color: #3c5499;
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+    text-align: center;
+    padding: 75px 0px;
+}
+form{
+    padding-top: 75px;
+}
+.input-box input{
+    color: white;
+    outline: none;
+    background-color: #273a71;
+    padding: 15px 5px;
+    font-size: 14px;
+    width: 350px;
+    margin: 5px 5px;
+    border-radius: 5px;
+}
+.input-box input::placeholder{
+    color: white;
+}
+textarea{
+    width: 710px;
+    margin: auto;
+    background-color: #273a71;
+    padding: 10px 5px;
+    margin-top: 20px;
+    margin-bottom: 50px;
+    border-radius: 5px;
+}
+textarea::placeholder{
+    color: white;
+}
+.buton{
+    display: inline-block;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    cursor: pointer;
+    font-size: 14px;
+    padding: 15px 45px;
+    border-radius: 5px;
+    background-color: #30bae7;
+    transition: 0.5s;
+}
+.buton:hover{
+    background-color: white;
+    color: black;
+}
+footer{
+    border-top: 1px solid rgb(142, 141, 141);
+}
+.footer{
+    background-color: #344b8e;
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+    text-align: center;
+    padding: 12px 0px;
+}
+.footer a{
+    display: inline-block;
+    text-decoration: none;
+    cursor: pointer;
+    color: white;
+    font-size: 20px;
+    margin: 0 20px;
+    transition: 0.5s;
+}
+.footer a:hover{
+    color: #30bae7;
+}
